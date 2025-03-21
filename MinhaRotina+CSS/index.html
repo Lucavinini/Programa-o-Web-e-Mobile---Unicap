@@ -1,55 +1,73 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="pt-BR">
 <head>
-    <title>LucasVinícius</title>
+    <meta charset="UTF-8">
 
+    <title>Lucas Vinícius</title>
     <style>
-
-    #Cabecalho1{
-        background-color: darkslateblue;
-        color: black;
-        padding: 40px;
-        text-align: center;
-    }
-    </style>
-
-    <style>
-        .centralizar{
-            color:blue; 
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
             text-align: center;
+            padding: 20px;
+            border: 5px solid silver;
+            border-radius: 15px;
+            width: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        video, audio {
+            margin-top: 10px;
+        }
+        a {
+            color: silver;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        hr {
+            border-color: silver;
         }
     </style>
 
 </head>
+
 <body>
+    <div class="container">
 
-    <img src = "FotoLucas.png">
-    <h1 class = "centralizar">Lucas Vinícius</h1>
-    <p> Olá, meu nome é Lucas. Tenho 21 anos e estudo na Unicap. Minha rotina consiste
-        em ir para a faculdade de manhã e estudar quando chego em casa, estou em busca de um
-        estágio na área de desenvolvimento e isso me motiva a buscar ainda mais conhecimento! Sou um cara <b>esforçado</b> e bastante <br>pensador</b>,
-        busco sempre melhorias e estou em constante <b>aprimoramento!</b>
-    </p>
-    <i>"Liberdade é pouco. O que desejo ainda não tem nome." - Clarice Lispector</i><br>
-    <h3>Projetos</h3>
-    <p>Eu já fiz alguns projetos e o que mais me impactou foi o meu projeto de hardware durante
-        a disciplina de Fundamentos de Hardware, eu vou te mostrar um pouco dele e a sua proposta no video abaixo!
-    </p>
-    <video src = "ProjetoDeHardware.mp4" width="300" height="300" controls loop>  
-    </video> <br>
-<hr>
-<h3>Formas de falar comigo</h3>
-<a href = "http://127.0.0.1:5500/Atividade2/contato.html" target = _blank>Contatos</a>
-<hr>
-<p>O que acha de curtir um som feito por mim? Aproveite!</p>
-    <audio controls autoplay loop>
-        <source src="AudioLucas.mp3" type="audio/mpeg">
-        Seu navegador não suporta áudio.
-    </audio> <br>
-    
-<h3>Obrigado!</h3>
-
+        <h1>Lucas Vinícius</h1>
+        <img src="FotoLucas.png">
+        <p>Olá, meu nome é Lucas. Tenho 21 anos e estudo na Unicap. Minha rotina consiste
+            em ir para a faculdade de manhã e estudar quando chego em casa, estou em busca de um
+            estágio na área de desenvolvimento e isso me motiva a buscar ainda mais conhecimento! Sou um cara <b>esforçado</b> e bastante 
+            <b>pensador</b>, busco sempre melhorias e estou em constante <b>aprimoramento!</b>
+        </p>
+        <i>"Liberdade é pouco. O que desejo ainda não tem nome." - Clarice Lispector</i>
+        <h3>Projetos</h3>
+        <p>Eu já fiz alguns projetos e o que mais me impactou foi o meu projeto de hardware durante
+            a disciplina de Fundamentos de Hardware. Vou te mostrar um pouco dele no vídeo abaixo!
+        </p>
+        <video src="ProjetoDeHardware.mp4" width="300" height="300" controls loop></video>
+        <hr>
+        <h3>Formas de falar comigo</h3>
+        <a href="http://127.0.0.1:5500/Atividade2/contato.html" target="_blank">Contatos</a>
+        <hr>
+        <p>O que acha de curtir um som feito por mim? Aproveite!</p>
+        <audio controls autoplay loop>
+            <source src="AudioLucas.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+        <h3>Obrigado!</h3>
+    </div>
 </body>
 </html>
